@@ -1,15 +1,110 @@
 # **Python ka Chilla 2023** 
 ## (Data Science with Python in 40-days)
+- [**Python ka Chilla 2023**](#python-ka-chilla-2023)
+  - [(Data Science with Python in 40-days)](#data-science-with-python-in-40-days)
+  - [**Resources, Books and Blogs Links:**](#resources-books-and-blogs-links)
+  - [**Day-1**](#day-1)
+  - [**Day-2**](#day-2)
+    - [**How to use VScode (an IDE) for Python?**](#how-to-use-vscode-an-ide-for-python)
+  - [**Day-3**](#day-3)
+    - [**Basics of Python programming for Data Science (1/2)**](#basics-of-python-programming-for-data-science-12)
+  - [**Day-4**](#day-4)
+    - [**Basics of Python programming for Data Science (2/2)**](#basics-of-python-programming-for-data-science-22)
+  - [**Day-5**](#day-5)
+    - [**Jupyternotebook Introduction, Libraries and Data Visualization**](#jupyternotebook-introduction-libraries-and-data-visualization)
+    - [**Markdown Language in 75 Minutes (This video is taken from Python ka chilla 2022**](#markdown-language-in-75-minutes-this-video-is-taken-from-python-ka-chilla-2022)
+  - [**Day-6**](#day-6)
+    - [**Pandas\_01**](#pandas_01)
+  - [**Day-7**](#day-7)
+    - [**Pandas library basic functions**](#pandas-library-basic-functions)
+  - [**Day-8**](#day-8)
+    - [**Pandas tips and tricks**](#pandas-tips-and-tricks)
+  - [**Day-9**](#day-9)
+    - [**Pandas practice online**](#pandas-practice-online)
+  - [**Day-10**](#day-10)
+    - [**Data Wrangling and Data Visualization (Basics)**](#data-wrangling-and-data-visualization-basics)
+  - [**Day-11**](#day-11)
+    - [**Data Visualization**](#data-visualization)
+  - [**Day-12**](#day-12)
+    - [**Exploratory Data Analysis (Basics)**](#exploratory-data-analysis-basics)
+  - [**Day-13**](#day-13)
+    - [**Exploratory Data Analysis (A-Z)**](#exploratory-data-analysis-a-z)
+  - [**Day-14**](#day-14)
+    - [**ABC of Statistics**](#abc-of-statistics)
+  - [**Day-15**](#day-15)
+    - [**Python Data Wrangling Techniques: From Beginner to Pro**](#python-data-wrangling-techniques-from-beginner-to-pro)
+  - [**Day-16**](#day-16)
+    - [**Machine Learning Basics**](#machine-learning-basics)
+  - [**Day-17**](#day-17)
+    - [**Machine Learning Basics-1**](#machine-learning-basics-1)
+  - [**Day-18**](#day-18)
+    - [**Regression (Machine Learning Basics-2)**](#regression-machine-learning-basics-2)
+  - [**Day-19**](#day-19)
+    - [**Classification (Machine Learning Basics-3)**](#classification-machine-learning-basics-3)
+  - [**Day-20**](#day-20)
+    - [**How to select a best Model in Machine learning with Scikit-learn?**](#how-to-select-a-best-model-in-machine-learning-with-scikit-learn)
+  - [**Day-21**](#day-21)
+    - [**How to select a best parameters in a Machine learning model with Scikit-learn?**](#how-to-select-a-best-parameters-in-a-machine-learning-model-with-scikit-learn)
+  - [**Day-22**](#day-22)
+    - [**Machine learning terminologies and theoratical concepts (Part-1)**](#machine-learning-terminologies-and-theoratical-concepts-part-1)
+  - [**Day-23**](#day-23)
+    - [**Machine learning terminologies and theoratical concepts (Part-2)**](#machine-learning-terminologies-and-theoratical-concepts-part-2)
+  - [**Day-24**](#day-24)
+    - [**How to save and re-use a model**](#how-to-save-and-re-use-a-model)
+  - [**Day-25**](#day-25)
+    - [**Practice session individual**](#practice-session-individual)
+  - [**Day-26**](#day-26)
+    - [**How to use Conda environments?**](#how-to-use-conda-environments)
+  - [**Day-27**](#day-27)
+    - [**Machine Learning with Tensorflow**](#machine-learning-with-tensorflow)
+  - [**Day-28**](#day-28)
+    - [**neural Networks introduction**](#neural-networks-introduction)
+  - [**Day-29**](#day-29)
+    - [**Computer Vision in PYTHON**](#computer-vision-in-python)
+  - [**Day-30**](#day-30)
+    - [**Image Classification in Tensorflow**](#image-classification-in-tensorflow)
+  - [**Day-31**](#day-31)
+    - [**Machine learning and Activation function in Tensorflow**](#machine-learning-and-activation-function-in-tensorflow)
+  - [**Day-32**](#day-32)
+    - [**Crash course on Activation Functions**](#crash-course-on-activation-functions)
+  - [**Day-33**](#day-33)
+    - [**Project based learning**](#project-based-learning)
+      - [**What is tensorflow fasion mnist dataset?**](#what-is-tensorflow-fasion-mnist-dataset)
+  - [**Day-34**](#day-34)
+    - [**How many epocs should we run in a deep neural network?**](#how-many-epocs-should-we-run-in-a-deep-neural-network)
+  - [**Day-35**](#day-35)
+    - [**Types of Neural Networks**](#types-of-neural-networks)
+  - [**Day-36**](#day-36)
+    - [**Streamlit Dashboards for Data Science**](#streamlit-dashboards-for-data-science)
+  - [**Day-37**](#day-37)
+    - [**Time Series Analysis**](#time-series-analysis)
+  - [**Day-38**](#day-38)
+    - [**Introduction to NLP and text classification**](#introduction-to-nlp-and-text-classification)
+  - [**Day-39**](#day-39)
+    - [**github and git tools**](#github-and-git-tools)
+  - [**Day-40**](#day-40)
+    - [**Use of chatGPT to maintain your social media accounts**](#use-of-chatgpt-to-maintain-your-social-media-accounts)
+  - [**Feedback**](#feedback)
+- [Information about the instructor:](#information-about-the-instructor)
+
+---
+- [What will you learn (Course Content)](#course-content)
+<!-- - [How to register for this course](#registration) -->
+<!-- - [How to take screen shots and send assignments](#how-to-take-screenshots-and-send-us-your-assignments)
+- [How to take your phone as webcam and mic for meetings](#how-to-use-your-mobile-iphoneandroid-camera-as-webcam-and-mobile-mic-as-main-mic-for-zoom-meetings) -->
+- [Important Resources, Books and Blogs](#resources-books-and-blogs-links)
+- [Your Feedback matters](#feedback)
+
 > An online course via zoom and youtube in Urdu/Hindi Language.
 > 
 This repository contains whole material of 40 days course on Python for Data Science in Urdu/Hindi 2023 Details are here: Registration details of our course is given [here](https://www.facebook.com/groups/codanics/permalink/1837695129921140/)           
-## **Registration**
+<!-- ## **Registration**
 You can register for this course from 01.01.2023-09.02.2023.\
 More details on the course can be found in this [google form](https://forms.gle/kDyUnD1nrN2LF6qy8)
 
-<!-- ![](resources/PKC2023.png) --> #if you want to make a big poster
+<!-- ![](resources/PKC2023.png) --> 
 <!-- <img src="resources/PKC2023.png" height="400"> -->
-<img src="resources/poster_2.png" width="700">
+<!-- <img src="resources/poster_2.png" width="700">
 
 ## **How to use your mobile (Iphone/Android) camera as webcam and mobile mic as main mic for zoom meetings**
 Apnay mobile ka cameray ko as webcam use karnay k liay is [link](https://www.youtube.com/watch?v=IEmAQbvadE8&list=PL9XvIvvVL50Fba7psesg6ynQXdipw-yoN&index=5) per click kar k short video ko dekhen
@@ -48,10 +143,18 @@ More information can be seen at the following [link from Microsoft](https://supp
 1. rename the screenshot with your name and assignment day and number
 2. Open your telegram app in PC.
 3. Send the screenshot or the required assignments at the following telegram id: `@baba_aammar`
-4. All other assignments should also be sent using similar method.
+4. All other assignments should also be sent using similar method. -->
 
+ -->
 
+## **Resources, Books and Blogs Links:**
 
+- [Python for Data Science- Complete Playlist](https://www.youtube.com/playlist?list=PL9XvIvvVL50Fba7psesg6ynQXdipw-yoN)
+- Books:
+  - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+  - [Hands On Machine Learning with Scikit Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)
+
+<!-- 
 ## **Course Content**
 
 - [Day-1](#day-1)
@@ -70,6 +173,33 @@ More information can be seen at the following [link from Microsoft](https://supp
 - [Day-14](#day-14) 
 - [Day-15](#day-15) 
 - [Day-16](#day-16) 
+- [Day-17](#day-17)
+- [Day-18](#day-18)
+- [Day-19](#day-19)
+- [Day-20](#day-20)
+- [Day-21](#day-21)
+- [Day-22](#day-22)
+- [Day-23](#day-23)
+- [Day-24](#day-24)
+- [Day-25](#day-25)
+- [Day-26](#day-26)
+- [Day-27](#day-27)
+- [Day-28](#day-28)
+- [Day-29](#day-29)
+- [Day-30](#day-30)
+- [Day-31](#day-31)
+- [Day-32](#day-32)
+- [Day-33](#day-33)
+- [Day-34](#day-34)
+- [Day-35](#day-35)
+- [Day-36](#day-36)
+- [Day-37](#day-37)
+- [Day-38](#day-38)
+- [Day-39](#day-39)
+- [Day-40](#day-40)
+- [Your Feedback matters](#feedback) -->
+
+
 > Everything related to course content in video lecture format will be uploaded **[here](https://youtube.com/playlist?list=PL9XvIvvVL50Fba7psesg6ynQXdipw-yoN)** on youtube.
 
 ## **Day-1**
@@ -372,4 +502,554 @@ In this example I have used IQR method to check for outliers, and I have used so
 
 It's important to note that the steps you take during data wrangling will vary depending on the dataset and the specific analysis you plan to perform. The examples above should give you an idea of the types of tasks that are typically involved in data wrangling and how to perform them using the pandas library.
 
+---
+## **Day-16**
+### **Machine Learning Basics**
+
+In this lecture we will learn what is machine learning and how we can implement that in our everyday life, projects and science themes.
+
+[<img src="./resources/Day16.png" width="42%">](https://youtu.be/AJElOIz8ysU "Machine Learning Zero-Advanced level | in Urdu/Hindi | Day-16")
+
+----
+## **Day-17**
+### **Machine Learning Basics-1**
+
+In this lecture we will learn what is machine learning with explained and detailed example
+- Types of Machine learning
+- Algorithms in ML
+- Regression vs. Classification
+- Much more\
+
+Here is the video:
+
+[<img src="./resources/Day17.png" width="42%">](https://www.youtube.com/watch?v=oCguRWNFqs4&list=PL9XvIvvVL50Fba7psesg6ynQXdipw-yoN&index=23&t=1282s "What is Machine Learning")
+
+----
+## **Day-18**
+### **Regression (Machine Learning Basics-2)**
+
+In this lecture we will learn how to use linear regression model in Machine learning, what is it and how we can implement that in real life?
+
+Here is the video:
+
+[<img src="./resources/Day18.png" width="42%">](https://www.youtube.com/watch?v=yEMS0QXflew&list=PL9XvIvvVL50Fba7psesg6ynQXdipw-yoN&index=24 "Linear Regression in Machine Learning")
+
+----
+## **Day-19**
+### **Classification (Machine Learning Basics-3)**
+
+In this lecture we will learn how to use classification model in Machine learning, what is it and how we can implement that in real life?
+
+Here is the video:
+
+[<img src="./resources/Day19.png" width="42%">](https://youtu.be/0k7hEy_9fJg "Classification in Machine learning | in Urdu/Hindi | Day-19")
+
+----
+## **Day-20**
+### **How to select a best Model in Machine learning with Scikit-learn?**
+
+In this lecture we will learn how to select a best model in Machine learning, what is it and how we can implement that in real life?
+
+Here is the video:
+
+[<img src="./resources/Day20.png" width="42%">](https://www.youtube.com/watch?v=XiUJwXglo5s&list=PL9XvIvvVL50Fba7psesg6ynQXdipw-yoN&index=26 "ML with Scikit-learn | in Urdu/Hindi | Day-20")
+
+Send me your assignment if you enrolled in the course:
+
+Here is the code mentioned in the video:
+
+```python
+# Import the necessary libraries
+# import libraries
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+df = sns.load_dataset("titanic")
+X = df[['pclass', 'sex', 'age', 'sibsp', 'parch', 'fare']]
+y = df['survived']
+X = pd.get_dummies(X, columns=['sex'])
+X.age.fillna(value = X['age'].mean(), inplace=True)
+
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+models = [LogisticRegression(), SVC(), DecisionTreeClassifier(), RandomForestClassifier(), KNeighborsClassifier()]
+model_names = ['Logistic Regression', 'SVM', 'Decision Tree', 'Random Forest', 'KNN']
+
+models_scores = []
+for model, model_name in zip(models, model_names):
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    models_scores.append([model_name,accuracy])
+
+sorted_models = sorted(models_scores, key=lambda x: x[1], reverse=True)
+for model in sorted_models:
+    print("Accuracy Score: ",f'{model[0]} : {model[1]:.2f}')
+
+
+# Accuracy Score:  Random Forest : 0.81
+# Accuracy Score:  Decision Tree : 0.79
+# Accuracy Score:  KNN : 0.76
+# Accuracy Score:  Logistic Regression : 0.75
+# Accuracy Score:  SVM : 0.74
+
+models = [LogisticRegression(), SVC(), DecisionTreeClassifier(), RandomForestClassifier(), KNeighborsClassifier()]
+model_names = ['Logistic Regression', 'SVM', 'Decision Tree', 'Random Forest', 'KNN']
+models_scores = []
+for model, model_name in zip(models, model_names):
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    Precision = precision_score(y_test, y_pred)
+    models_scores.append([model_name,Precision])
+
+sorted_models = sorted(models_scores, key=lambda x: x[1], reverse=True)
+for model in sorted_models:
+    print("Precision Score: ", f'{model[0]} : {model[1]:.2f}')
+
+# Precision Score:  Random Forest : 0.80
+# Precision Score:  Decision Tree : 0.78
+# Precision Score:  KNN : 0.75
+# Precision Score:  Logistic Regression : 0.74
+# Precision Score:  SVM : 0.73
+
+models = [LogisticRegression(), SVC(), DecisionTreeClassifier(), RandomForestClassifier(), KNeighborsClassifier()]
+model_names = ['Logistic Regression', 'SVM', 'Decision Tree', 'Random Forest', 'KNN']
+models_scores = []
+for model, model_name in zip(models, model_names):
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    Recall = recall_score(y_test, y_pred)
+    models_scores.append([model_name,Recall])
+
+sorted_models = sorted(models_scores, key=lambda x: x[1], reverse=True)
+for model in sorted_models:
+    print("Recall Score: ",f'{model[0]} : {model[1]:.2f}')
+
+# Recall Score:  Random Forest : 0.74
+# Recall Score:  Decision Tree : 0.72
+# Recall Score:  KNN : 0.68
+# Recall Score:  Logistic Regression : 0.67
+# Recall Score:  SVM : 0.65
+
+models = [LogisticRegression(), SVC(), DecisionTreeClassifier(), RandomForestClassifier(), KNeighborsClassifier()]
+model_names = ['Logistic Regression', 'SVM', 'Decision Tree', 'Random Forest', 'KNN']
+models_scores = []
+for model, model_name in zip(models, model_names):
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    F1 = f1_score(y_test, y_pred)
+    models_scores.append([model_name,F1])
+
+sorted_models = sorted(models_scores, key=lambda x: x[1], reverse=True)
+for model in sorted_models:
+    print("F1 Score: ",f'{model[0]} : {model[1]:.2f}')
+
+# F1 Score:  Random Forest : 0.77
+# F1 Score:  Decision Tree : 0.75
+# F1 Score:  KNN : 0.71
+# F1 Score:  Logistic Regression : 0.70
+# F1 Score:  SVM : 0.68
+```
+
+----
+## **Day-21**
+### **How to select a best parameters in a Machine learning model with Scikit-learn?**
+
+In this lecture we will learn how to select a best parameters in a model using gridsearch CV in scikit-learn
+
+Here is the video:
+
+[<img src="./resources/Day21.png" width="42%">](https://youtu.be/-IHgSW5dB5s "Grid Seach cv | in Urdu/Hindi | Day-21")
+
+Here is the code mentioned in the video:
+
+```python
+# Decision Tree Classifier and use best parameters
+import pandas as pd
+import seaborn as sns
+df = sns.load_dataset("titanic")
+X = df[['pclass', 'sex', 'age', 'sibsp', 'parch', 'fare']]
+y = df['survived']
+X = pd.get_dummies(X, columns=['sex'])
+X.age.fillna(value = X['age'].mean(), inplace=True)
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import GridSearchCV
+import numpy as np
+#create a model
+model = DecisionTreeClassifier()
+# define parameter grid
+param_grid = {'max_depth': [3, 5, 7, None], 'min_samples_split': [2, 3, 4]}
+
+#object grid search cv (Creating the model)
+grid_search = GridSearchCV(model, param_grid, cv=5, scoring='precision')
+
+#traing the model
+grid_search.fit(X,y)
+
+# print the best parameters
+print("Best Parameters: ", grid_search.best_params_)
+print("Best Score: ", grid_search.best_score_)
+
+# Best Parameters:  {'max_depth': 3, 'min_samples_split': 2}
+# Best Score:  0.775
+```
+
+In your assignments:
+
+Please write a code where you can select the best model based on grid search cv!
+
+
+----
+
+## **Day-22**
+### **Machine learning terminologies and theoratical concepts (Part-1)**
+
+Sab se pehlay is lecture main ap o K-means clustering kaisay python main apply ki jati hy woh sikhaya jaye ga:
+
+[<img src="./resources/Day22.png" width="42%">](https://youtu.be/jdYTpYu4THE "Kmeans Clustering in Python")
+
+
+
+Ab se agalay 2 din ham machine learning k basic concepts dekhnay walay hyn, jo terminologies machine learning main use hti hyn woh seekhen gay, ye lectures bht important hyn is liay inhen skip na kijeay ga.
+
+Agar ap yahan tak seekh ayen hyn tu yaqeen manen ap ny in concepts ko already bht had tak dekha hy, ab clear ho jayen gay or.
+
+
+> Es video may hum Machine Learning ka introduction dekhyn gyn k wo hoti kya hay or is ML playlist may hum ainda kya chzyn dekhny walay hayn.
+> 
+[<img src="./resources/ml_day22_23/26.png" width="42%">](https://www.youtube.com/watch?v=eYXCw2FQfPA "ML")
+
+> Cross validation ka nam hum bht zeada suntay hayn ML ki dunya may or is video may hum bht h desi example k sath dekhyn gyn k Cross validation (CV) kya hota hay or us ki mukhtalif types i.e., 4 fold CV, 10 fold CV, etc.
+
+[<img src="./resources/ml_day22_23/27.png" width="42%">](https://www.youtube.com/watch?v=iy3B94qUAV8 "ML")
+
+> Confusion matrix hmyn bht h zeada confuse rakhta hay is liay isko asan bnanay k liay ye video ap k liay desi examples k sath mojood hay jis may hum nay dekha hay k confusion matrix ki zrurat kiun hay or hum kis trhn bnatay hayn jis may True Positive, True Negatives, False Positives or, False Negatives ko smjha hay.
+
+[<img src="./resources/ml_day22_23/28.png" width="42%">](https://www.youtube.com/watch?v=bm_pw-TxwmE "ML")
+
+> Jab hum koi b model bnatay hayn to us ko chk krty hayn k wo kitna acha kam kr raha hay. Sirf accuracy say kam nai chlta hr baar is liay ye dekhna prta hay k us k andr model kitnay positives (sensitivity) or kitnay negatives ( specificity) sai say model nay btaey hayn.
+
+[<img src="./resources/ml_day22_23/29.png" width="42%">](https://www.youtube.com/watch?v=2nwjKvFsxBI "ML")
+
+> Agar ap nay 2 model bnaey hayn jis may say 1 model bht acha fit hua hay or aek model bht achi prediction kr raha hay to apko un dono ko kesay istemal krna chaheay is ko smjhnay k liay BIAS -VARIANCE tradeoff ka concept smjhna zruri hay.
+
+[<img src="./resources/ml_day22_23/30.png" width="42%">](https://www.youtube.com/watch?v=12hx3VCoShY "ML")
+
+> Entropy Ka lfzi mtlb to ye hay k ap k data may Randomness/ disorder Kitna hay lekin machine learning ki dunya may is ko hum kis trhn istemal krtay hayn is video may achay say bht h sada or asan treqay say smjhaya hay ta k ap ainda jab b Entropy istemal kryn ML may to apko idea ho k ap isay kiun or kesay istemal kr skty hayn.
+
+[<img src="./resources/ml_day22_23/32.png" width="42%">](https://www.youtube.com/watch?v=VUroGmmD1hc "ML")
+
+> Bht h zeada asan or aam ML Ka model hay linear regression model pr is may istemal honay walay concepts sbb KO smjh nai aatay. Is liay is video may ye btaya geya hay k linear regression hota kya hay, residual kisay kehtay hayn.
+
+[<img src="./resources/ml_day22_23/33.png" width="42%">](https://www.youtube.com/watch?v=fXTMJniHdpc "ML")
+
+> Hum square kiun krty hayn difference KO or least squared residuals kya hotay hayn or kiun hum usay regression may dekhty hayn isi trhn agar hum higher dimensions may jaeyn ( aam lfzon may agar humaray paas 1 say zeada independent variables hon to kis trhn us may regression Ka model lgta hay us k liay ye video dekhna ap k liay bht zruri hay ( multiple regression)
+
+[<img src="./resources/ml_day22_23/34.png" width="42%">](https://www.youtube.com/watch?v=iptI-dqLr-M "ML")
+
+----
+
+## **Day-23**
+### **Machine learning terminologies and theoratical concepts (Part-2)**
+
+
+> Aam dunya may sbb Kuch linear nai hota isi liay hum HR Baar linear regression k models istemal nai krty is liay jab b hmaray paas dependent variable may categorical/Boolean data ho to hum istemal krtay hayn Logistic regression. Is video may hum nay Dekha k logistics regression kis trhn different hay linear regression say, s curve Ka kya concept hay or kya higher dimensional logistic regression Hoti hay.
+
+[<img src="./resources/ml_day22_23/35.png" width="42%">](https://www.youtube.com/watch?v=Kmk9EeFnyHM "ML")
+
+
+> ROC ( Receive operating characteristic) and AUC ( area under the curve) dono mil k hmyn btatay hayn k model kis trhn perform kr Raha hay. ROC aek probability curve hay or AUC us may ye btata hay k measure of separability kitni hay model ki ye dono aek sath accuracy say zeada Acha model ko evaluate krty hayn jab class imbalanced Hoti hay, is video may ye chz asan lfzon may discuss ki hui hay or ye b btaya geya hay k hum in KO kesay bna skty hayn or kesay interpretation kr skty hayn.
+
+[<img src="./resources/ml_day22_23/36.png" width="42%">](https://www.youtube.com/watch?v=-f-mvDObG1U "ML")
+
+> Logistic regression may s-curve ko fit krnay k liay hum nay Jo method istemal Kia hay ( maximum likelihood) Ka wo in detail kesay lgta hay or is may hum least squared residuals wala method kiun istemal nai krty.
+
+[<img src="./resources/ml_day22_23/37.png" width="42%">](https://www.youtube.com/watch?v=CQOzUDd_83U "ML")
+
+> Or agar hum model ko chk kr rhy hayn k model Kitna accurate and reliable hay to us liay hum R-squared logistic regression may kis trhn calculate krty hayn or interpret krty hayn.
+> 
+[<img src="./resources/ml_day22_23/38.png" width="42%">](https://www.youtube.com/watch?v=JmVvPqR44h4 "ML")
+
+
+> jab b hmaray model may overfitting/underfitting Ka issue ata hay to hum Realizations techniques use krty hayn or is may data or model ki noyiat Dekh k hum ye faisla krty hayn k hum kis technique pay focus kryn gyn. Jab data may bht saray usefull variables hon to hum mostly L2 use krty hayn.
+
+[<img src="./resources/ml_day22_23/39.png" width="42%">](https://www.youtube.com/watch?v=nv-HHBxmfv4 "ML")
+
+> or jab useless variables zeada hon to hum L1 use krty hayn.
+
+[<img src="./resources/ml_day22_23/40.png" width="42%">](https://www.youtube.com/watch?v=QDSQivx78eA "ML")
+
+> or jab hum drmean may hon to phir hybrid technique Elastic net istemal krtay hayn.
+
+[<img src="./resources/ml_day22_23/41.png" width="42%">](https://www.youtube.com/watch?v=AwbS2d1xYIQ "ML")
+
+> Principal component analysis (PCA) hum zeada tr feature selection/ dimension reduction k liay istemal krtay hayn. Is video may hum nay ye Dekha hay in detail k ML may exactly kb or kesay PCA istemal KR k apna Kam asaan Kia ja skta hay or is may mojooe eigen vectors Ka concept b asan lfzon may btaya geya hay.
+
+[<img src="./resources/ml_day22_23/42.png" width="42%">](https://www.youtube.com/watch?v=FufGzT9az4Y "ML")
+
+> Regression techniques k baad hum nay ye Dekha k Clustering kis trhn ki jati hay or is Ka mtlb kya hay or zrurat kiun Hoti hay. Aek bht h asan or famous techniques K-MEANS CLUSTERING ki hum is may kesay istemal krtay hayn or is may K , MEANS dono Ka mtlb kya hay or hum kesay decide krty hayn k K kya lena chaheay kis say hmara Kam asaan ho sky.
+
+[<img src="./resources/ml_day22_23/43.png" width="42%">](https://www.youtube.com/watch?v=W9cl8xKQPOc "ML")
+
+## **Day-24**
+### **How to save and re-use a model**
+
+Is lecture main ham ne seekha k kis trah ham apna trained ML model save kartay hyn, click the image below to watch the video lecture:
+
+[<img src="./resources/Day24.png" width="42%">](https://www.youtube.com/watch?v=b0NnVf31vps&list=PL9XvIvvVL50Fba7psesg6ynQXdipw-yoN&index=29 "joblib")
+
+## **Day-25**
+### **Practice session individual**
+
+Download any dataset on covid and submit the EDA on telegram if you want to have a feedback.
+
+1. Download the data from [google datasearch](https://datasetsearch.research.google.com/)
+2. Read in python
+3. Run EDA analysis
+4. Do data wrangling
+5. Data Visualization
+6. Machine learning model of your choice
+7. Submit
+
+## **Day-26**
+### **How to use Conda environments?**
+
+[<img src="./resources/Day26.png" width="42%">](https://youtu.be/nsFdTgwDrVE "conda environments")
+
+## **Day-27**
+### **Machine Learning with Tensorflow**
+
+You will learn these in this lecture:
+
+1. What are conda environments?
+2. How to install tensorflow for GPU and CPU PCs?
+   1. [Here's how install in Windows PC](https://www.tensorflow.org/install/pip#step-by-step_instructions)
+   2. [Here's how to install in Mac M1/M2](https://medium.com/mlearning-ai/install-tensorflow-on-mac-m1-m2-with-gpu-support-c404c6cfb580)
+3. What is git and github?
+
+
+[<img src="./resources/Day27.png" width="42%">](https://youtu.be/iNENqZOrgiY "tensorflow")
+
+After this lecture you have send the video presentation as mentioned in the lecture.
+
+## **Day-28**
+### **neural Networks introduction**
+
+Is video main ap neural network or is ki types dekhnay walay hyn.
+
+[<img src="./resources/Day28.jpeg" width="42%">](https://www.youtube.com/watch?v=6AlfcbhgBvo&list=PL9XvIvvVL50Fba7psesg6ynQXdipw-yoN&index=32&t=970s "neural networks")
+
+
+## **Day-29**
+### **Computer Vision in PYTHON**
+
+This video will give you the basic concepts of computer vision in python.
+
+[<img src="./resources/Day29.jpeg" width="42%">](https://youtube.com/live/5VZX-ovRgAgDay29 "computer vision")
+
+## **Day-30**
+### **Image Classification in Tensorflow**
+
+This video will give you the basic concepts of activation function in tensorflow.
+
+[<img src="./resources/Day30.jpeg" width="42%">](https://youtu.be/ch2Yl40D9zk "Image Classification in Tensorflow")
+
+## **Day-31**
+### **Machine learning and Activation function in Tensorflow**
+
+This video will give you the basic concepts of activation function in tensorflow.
+
+[<img src="./resources/Day31.jpeg" width="42%">](https://youtube.com/live/UEPkIu8mHL4 "ML with TF")
+
+## **Day-32**
+### **Crash course on Activation Functions**
+
+This video will give you the basic concepts of activation function in tensorflow.
+
+[<img src="./resources/Day32.jpeg" width="42%">](https://youtu.be/tW6v915O4g4 "Activation Functions")
+
+## **Day-33**
+### **Project based learning**
+
+In thie lecture we used fashion mnist dataset to do some machine learning and deep learning tasks in Python with tensorflow.
+
+
+#### **What is tensorflow fasion mnist dataset?**
+60,000 28x28 grayscale images of 10 fashion categories, along with a test set of 10,000 images.
+This dataset can be used as a drop-in replacement for MNIST. The class labels are:
+Label Description
+* 0:	T-shirt/top
+* 1:	Trouser
+* 2:	Pullover
+* 3:	Dress
+* 4:	Coat
+* 5:	Sandal
+* 6:	Shirt
+* 7:	Sneaker
+* 8:	Bag
+* 9:	Ankle boot
+
+HERE IS THE LECTURE:\
+[<img src="./resources/Day33.png" width="42%">](https://www.youtube.com/watch?v=Is0EB1jkop8&list=PL9XvIvvVL50Fba7psesg6ynQXdipw-yoN&index=37 "Project based learning")
+
+## **Day-34**
+### **How many epocs should we run in a deep neural network?**
+
+Call back function ko use kar k ham andaza laga saktay hyn k kitnay epochs use karnay chaheay based on the accuracy or loss, is lecture main ap ko sab clear hnay wala hy.
+
+HERE IS THE LECTURE:\
+[<img src="./resources/Day34.jpeg" width="42%">](https://youtu.be/o_41Gxk_JQA "Project based learning")
+
+## **Day-35**
+### **Types of Neural Networks**
+
+In this lecture we will learn about the types of neural networks.
+
+HERE IS THE LECTURE:\
+[<img src="./resources/Day35.jpeg" width="42%">](https://youtu.be/GGOjRuiU3fE "Types of Neural Networks")
+
+
+## **Day-36**
+### **Streamlit Dashboards for Data Science**
+
+Is lecture main ap streamlit ko dekhen gay. jo aik library hy jis se ap behtareen qisam ki webapps bna saktay hyn asani se.
+
+Ye din several parts main hy is liay bear with me and learn alot today.
+
+1. Intro to Streamlit
+
+    [<img src="./resources/Day37a.jpeg" width="42%">](https://youtu.be/5bY-g9p_mxs "Streamlit-1")
+
+2. Streamlit with titanic dataset
+
+    [<img src="./resources/Day37b.jpeg" width="42%">](https://youtu.be/hy0A6wxlBuM "Streamlit-2")
+
+3. Streamlit with Plotly
+
+    [<img src="./resources/Day37c.jpeg" width="42%">](https://youtu.be/FIkHuQ5-94w "Streamlit-3")
+
+4. Animated plots with Streamlit & Plotly
+
+    [<img src="./resources/Day37d.jpeg" width="42%">](https://youtu.be/gIKgqBH-dTM "Streamlit-4")
+
+5. Streamlit webb app for EDA analysis
+
+    [<img src="./resources/Day37e.jpeg" width="42%">](https://youtu.be/crZcSoBLYaM "Streamlit-5")
+
+6. Streamlit k Jugaar
+
+    [<img src="./resources/Day37f.jpeg" width="42%">](https://youtu.be/ye7uSnLGkXY "Streamlit-6")
+
+7. Machine Leaning Web-application in python with streamlit
+
+    [<img src="./resources/Day37g.jpeg" width="42%">](https://youtu.be/goR8rWxJ-j0 "Streamlit-7")
+
+8. Deploy a streamlit data science app online
+
+    [<img src="./resources/Day37h.jpeg" width="42%">](https://youtu.be/_Dc42sybVoQ "Streamlit-8")
+
+9. Add video & audio to your streamlit data science webapp in python
+
+    [<img src="./resources/Day37i.jpeg" width="42%">](https://youtu.be/m9KhCRwKOgI "Streamlit-9")
+10. Add code to streamlit webapp
+
+    [<img src="./resources/Day37j.jpeg" width="42%">](https://youtu.be/wnRncTcyuFM "Streamlit-10")
+
+11. Make Interactive Dashboard with Explainer Dashboard
+
+    [<img src="./resources/Day37k.jpeg" width="42%">](https://youtu.be/WlKenV8m3xU "Streamlit-11")
+
+12. Embedding code snippets in streamlit webapp
+
+    [<img src="./resources/Day37l.jpeg" width="42%">](https://youtu.be/LwAAxmS2X0Y "Streamlit-12")
+
+13. Streamlit App development with Python `project based`
+
+    [<img src="./resources/Day37m.jpeg" width="42%">](https://youtube.com/live/a6uAZ_bv6Yw "Streamlit-13")
+
+14. Data Science Web app development via Streamlit in Python (Project based)
+
+    [<img src="./resources/Day37n.jpeg" width="42%">](https://youtube.com/live/cLlFT3M-NPQ "Streamlit-14")
+
+
+## **Day-37**
+### **Time Series Analysis**
+
+Is lecture main time series analysis ko dekhen gay.
+Ye lecture two parts main hy.
+
+1. Intro to Time Series Analysis
+
+[<img src="./resources/Day36a.jpeg" width="42%">](https://youtube.com/live/VgYCEhui6FE "Time series")
+
+2. Advance Time Series Analysis
+
+[<img src="./resources/Day36b.jpeg" width="42%">](https://youtube.com/live/k4zP_EVJSP0 "Times series")
+
+
+## **Day-38**
+### **Introduction to NLP and text classification**
+
+
+In this lecture we will learn about the basics of NLP and text classification.
+
+HERE IS THE LECTURE:\
+[<img src="./resources/Day38.jpeg" width="42%">](https://youtube.com/live/ytXo6nnPsSQ "NLP")
+
+- Use of Tensorboad in Machine Learning
+
+HERE IS THE LECTURE:\
+[<img src="./resources/Day38a.gif" width="42%">](https://youtube.com/live/EMPS8s8s4Hk "tensorboard")
+
+## **Day-39**
+### **github and git tools**
+
+In this lecture we will learn about the github and git tools. Ap is main seekhen gay k kaisay github ko sue kar k ap apnay documentation save kar saktya hyn.
+
+HERE IS THE LECTURE:\
+[<img src="./resources/Day39.jpeg" width="42%">](https://youtube.com/live/twuCzvsjno0 "github")
+
+## **Day-40**
+### **Use of chatGPT to maintain your social media accounts**
+
+
+In this lecture we will learn about the use of chatGPT to maintain your social media accounts.
+
+HERE IS THE LECTURE:\
+[<img src="./resources/Day40.jpeg" width="42%">](https://youtube.com/live/1WUM42VXQDo "chatGPT for SOcial Media")
+
+--- 
+## **Feedback**
+
+Your feedback matters alot, may you please comment on the following [post on facebook](https://www.facebook.com/groups/codanics/permalink/1872283496462303/) to give use your feed back?
+
+[<img src="./resources/feedback.png" width="50%">](https://www.facebook.com/groups/codanics/permalink/1872283496462303/ "Feedback")
+
+---
+
+# Information about the instructor:
+
+[<img src="./resources/aammar.jpeg" width="50%">](https://www.facebook.com/groups/codanics/permalink/1872283496462303/ "Image")
+
+**Dr. Muhammad Aammar Tufail**
+
+PhD Data Science in Agriculture\
+[Youtube channel](https://www.youtube.com/channel/UCmNXJXWONLNF6bdftGY0Otw/)\
+[Twitter](https://twitter.com/aammar_tufail)\
+[Linkedin](https://www.linkedin.com/in/muhammad-aammar-tufail-02471213b/)
+[github](https://github.com/AammarTufail)
+
+contact: aammar@codanics.com
 
